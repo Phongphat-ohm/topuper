@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  font-family: "Kanit", s;
+* {
+  font-family: "Kanit", serif;
+}
+
+.tail-input{
+  @apply p-2 px-3 mt-2 border outline-none transition-all duration-200 focus:ring-4 focus:ring-blue-400 focus:rounded
 }
